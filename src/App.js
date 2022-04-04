@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container-fluid">
-        <Weather defaultCity="New York" />
+        <Weather defaultCity="Berlin" />
         <footer>
           This project was coded by {""}
           <a href="https://www.alexcodes.co/" rel="noreferrer" target="_blank">
