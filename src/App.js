@@ -9,11 +9,7 @@ function App() {
         <Weather defaultCit="New York" />
         <footer>
           This project was coded by {""}
-          <a
-            href="https://inspiring-lewin-d06e19.netlify.app/"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <a href="https://www.alexcodes.co/" rel="noreferrer" target="_blank">
             Alexandra Velasco-Svoboda
           </a>{" "}
           and is {""}
