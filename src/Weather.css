@@ -3,23 +3,32 @@
   border-radius: 4px;
   padding: 16px;
   margin: 30px auto;
+  background-color: #ffffff;
 }
 
 body {
   font-family: "Courier New", Courier, monospace;
   line-height: 1.2;
   text-align: center;
+  background-color: white;
 }
 
 .Weather form {
   margin-bottom: 20px;
 }
 
+.btn {
+  background-color: #123c69;
+  border-color: #123c69;
+}
+
 .Weather h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   margin: 20px 0 0 0;
   display: block;
   text-align: center;
+  font-weight: bolder;
+  color: #ac3b61;
 }
 .Weather ul {
   margin: 0;
@@ -39,6 +48,7 @@ body {
   font-weight: bold;
   font-size: 64px;
   line-height: 64px;
+  color: #ac3b61;
 }
 
 .Weather .unit {
@@ -47,4 +57,5 @@ body {
   top: -14px;
   margin-left: 5px;
   line-height: 1;
+  color: #ac3b61;
 }
