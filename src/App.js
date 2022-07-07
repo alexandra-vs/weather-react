@@ -9,13 +9,17 @@ function App() {
         <Weather defaultCity="Berlin" />
         <footer>
           This project was coded by {""}
-          <a href="https://www.alexcodes.co/" rel="noreferrer" target="_blank">
+          <a
+            href="https://www.alexcodes.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Alexandra Velasco-Svoboda
           </a>{" "}
           and is {""}
           <a
             href="https://github.com/alexandra-vs/weather-react"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             target="_blank"
           >
             open-sourced
