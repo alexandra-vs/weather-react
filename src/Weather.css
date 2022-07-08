@@ -1,25 +1,30 @@
 .Weather {
-  border: 1px solid black;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
   border-radius: 4px;
   padding: 16px;
-  margin: 30px auto;
-  background-color: #ffffff;
+  margin: 200px 0px 50px 0px;
+  background-color: white;
 }
 
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   line-height: 1.2;
   text-align: center;
-  background-color: white;
+  background-color: rgba(248, 180, 105, 0.1);
 }
 
 .Weather form {
   margin-bottom: 20px;
 }
 
+.Weather the-form {
+  background: rgba(248, 180, 105, 0.1);
+}
+
 .btn {
-  background-color: #123c69;
-  border-color: #123c69;
+  background-color: #303c6c;
+  border-color: #303c6c;
 }
 
 .Weather h1 {
@@ -28,19 +33,20 @@ body {
   display: block;
   text-align: center;
   font-weight: bolder;
-  color: #ac3b61;
+  color: #303c6c;
 }
 .Weather ul {
   margin: 0;
   padding: 0;
   text-align: center;
+  color: #303c6c;
 }
 
 .Weather li {
   font-size: 20px;
   font-weight: 500px;
   display: block;
-
+  color: #303c6c;
   list-style: none;
 }
 
@@ -48,7 +54,7 @@ body {
   font-weight: bold;
   font-size: 64px;
   line-height: 64px;
-  color: #ac3b61;
+  color: #b4dfe5;
 }
 
 .Weather .unit {
@@ -57,5 +63,19 @@ body {
   top: -14px;
   margin-left: 5px;
   line-height: 1;
-  color: #ac3b61;
+  color: #b4dfe5;
+}
+
+a {
+  color: #b4dfe5;
+  text-decoration: none;
+}
+
+.WeatherForecast-temperature-max {
+  color: #b4dfe5;
+  font-weight: bold;
+}
+
+.WeatherForecast-temperature-min {
+  color: rgb(180, 223, 229);
 }
