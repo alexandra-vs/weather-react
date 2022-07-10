@@ -77,5 +77,5 @@ a {
 }
 
 .WeatherForecast-temperature-min {
-  color: rgb(180, 223, 229);
+  color: rgb(180, 223, 229, 0.8);
 }
